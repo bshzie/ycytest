@@ -1,0 +1,93 @@
+div,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+
+}
+li{
+   
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+
+body {
+    background-color: #5bb7b9;
+}
+
+.common-div {
+    border-radius: 20px;
+    background-color: #5bb7b9;
+    box-shadow:  3px 3px 6px #4d9c9d, -3px -3px 6px #69d2d5;
+    transition: all .3s;
+}
+
+.common-div:hover {
+    transform: scale(1.01);
+    box-shadow: 6px 6px 12px #4d9c9d, -6px -6px 12px #69d2d5;
+}
+
+.shell {
+    margin: 0px auto;
+    margin-top: 14px;
+    width: 345px;
+    height: 900px;
+
+    /* background-color: rgba(29, 158, 158, .3); */
+}
+
+.namebox {
+    margin: 0px auto;
+    width: 330px;
+    height: 90px;
+    /* background-color: rgb(200, 250, 16); */
+    text-align: center;
+    line-height: 90px;
+    font-size: 19px;
+}
+.headshell{
+    /* margin的顺序不一样，结果也不一样 */
+    margin: 0px auto;
+    margin-top: 15px;
+    width: 330px;
+    height: 120px;
+    /* background-color: rgba(57, 229, 45,.3); */
+}
+.head-img{
+    float: left;
+    width: 120px;
+    height: 120px;
+    background-color: rgba(22, 90, 236,.6);
+    background-image: url(imgs/headimg.png);
+    background-size: cover;
+}
+.head-content{
+    float: right;
+    width: 195px;
+    height: 120px;
+}
+.head-content .head-content-title{
+    margin: 0px auto;
+    width: 185px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 6px;
+    border-bottom: 1px solid #ffffff;
+}
+.head-content-content{
+    margin: 10px auto;
+    width: 150px;
+    height: 80px;
+    /* background-color: rgba(197, 120, 25,.3); */
+}
+.headshell .namebox-li{
+    margin-top: 3px;
+    text-align: center;
+    font-size: .3px;
+}
