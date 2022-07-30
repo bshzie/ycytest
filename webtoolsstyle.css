@@ -1,0 +1,74 @@
+div,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+li {
+
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #5bb7b9;
+}
+
+.common-div {
+    border-radius: 20px;
+    background-color: #5bb7b9;
+    box-shadow: 3px 3px 6px #4d9c9d, -3px -3px 6px #69d2d5;
+    transition: all .3s;
+}
+
+.common-div:hover {
+    transform: scale(1.01);
+    box-shadow: 6px 6px 12px #4d9c9d, -6px -6px 12px #69d2d5;
+}
+
+.title {
+    margin: 0px auto;
+    margin-top: 15px;
+    padding-left: 23px;
+    width: 307px;
+    height: 50px;
+    font-size: 29px;
+    line-height: 50px;
+    /* background-color: rgba(153, 212, 26, 0.3); */
+}
+
+.webshell {
+    margin: 0px auto;
+    margin-top: 15px;
+    width: 330px;
+    height: 550px;
+}
+
+.web-title {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+a[class^=web] {
+    float: left;
+    margin: 0px auto;
+    margin-top: 18px;
+    margin-left: 18px;
+    padding: 10px;
+    display: block;
+    width: 66px;
+    height: 60px;
+    font-size: 14px;
+    /* line-height: 30px; */
+    border-radius: 5px;
+    /* background-color: rgba(63, 65, 64, 0.3); */
+}
